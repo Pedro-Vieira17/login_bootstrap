@@ -1,5 +1,6 @@
 body {
     background-color: rgb(212, 212, 212);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container_tela {
@@ -14,29 +15,51 @@ body {
     padding: 40px;
     border-radius: 10px;
     width: 350px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.137);
 }
 
 .titulo {
     margin-bottom: 20px;
+    text-align: center;
 }
 
-/* campos */
 .campo {
     margin-bottom: 15px;
 }
 
-/* botão */
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
 .botao {
     margin-top: 10px;
+    background-color: #0066ff;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-/* área do link */
+.botao:hover {
+    background-color: #1900ff;
+}
+
+
 .link-area {
     margin-top: 15px;
+    text-align: center;
 }
 
-/* link */
 .link {
     text-decoration: none;
     margin-left: 5px;
+    color: #0d6efd;
 }
