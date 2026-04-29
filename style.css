@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(212, 212, 212);
+}
+
+.container_tela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.caixa_login {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.titulo {
+    margin-bottom: 20px;
+}
+
+/* campos */
+.campo {
+    margin-bottom: 15px;
+}
+
+/* botão */
+.botao {
+    margin-top: 10px;
+}
+
+/* área do link */
+.link-area {
+    margin-top: 15px;
+}
+
+/* link */
+.link {
+    text-decoration: none;
+    margin-left: 5px;
+}
